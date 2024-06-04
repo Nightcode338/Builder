@@ -2,7 +2,7 @@ import Girl from "../../assets/Girl.svg";
 
 const About = () => {
   return (
-    <div className=" pt-[200px] pb-[133px] flex justify-center px-28 gap-10">
+    <div className=" pt-[200px] pb-[112px] flex justify-center px-28 gap-10">
       <div>
         <span className=" font-bold text-6xl max-w-[410px]">
           Join the 2000+ Resum<span className=" text-[#8910F1]">o</span> family
@@ -18,7 +18,9 @@ const About = () => {
       <div>
         <img src={Girl} alt="girl" className=" w-[700px]" />
       </div>
+      
     </div>
+     
   );
 };
 
