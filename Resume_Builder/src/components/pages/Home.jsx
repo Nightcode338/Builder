@@ -1,6 +1,7 @@
 import Header from "../Hompage/Header"
 import Hero from "../Hompage/Hero"
 import Feature from "../Hompage/Feature"
+import About from "../Hompage/About"
 
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
         <div>
         <Hero/>
         <Feature />
+        <About />
         </div>
       
     </div>
