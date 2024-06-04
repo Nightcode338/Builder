@@ -1,23 +1,39 @@
+import Resume from "../../assets/Resume.svg"
+import user from "../../assets/user.svg"
 
 const Hero = () => {
   return (
-    <div className=" flex ">
+    <div className=" flex justify-between px-10 py-12">
+        <div className=" flex items-center gap-[100px]">
+
       <div>
-            <p>BOOST YOUR CAREER CHASING</p>
-            <p className="text-4xl font-bold text-purple-700 mb-4">
+            <div className=" max-w-[483px] flex flex-col gap-5">
+            <p className=" text-2xl uppercase text-[#4E4D4D] ">Boost your career chasing</p>
+            <p className="text-5xl font-extrabold">
                 Land your dream job with already made
-                Eye catchy Resumes.
+                <span className=" text-[#8910F1]"> Eye catchy Resumes.</span>
             </p>
             
         
-            <p className="text-gray-600 mb-8">
+            <p className="text-[#4E4D4D] text-2xl pb-[22px]">
                 Create awesome resumes with one of our template in just few seconds.
             </p>
-            <button className="bg-purple-600 text-white px-6 py-3 rounded-md shadow-md hover:bg-purple-700 transition-colors duration-300">
+            </div>
+            <button className="bg-[#8910F1] text-white px-6 py-3 rounded-md shadow-md hover:bg-purple-700 transition-colors duration-300">
                 Create Resume for free
             </button>
       </div>
+        </div>
       <div>
+            <div>
+                <img src={Resume} alt="Resume" className=" relative"/>
+                    <div className="absolute top-[35%] left-[50%] bg-white px-8 pt-8 pb-16 shadow-2xl">
+                        <img src={user} alt=""/>
+                        <p className=" w-[141px] mt-5 font-bold text-lg">
+                        Mujhiz crEAtivO <span className=" text-[15px] text-[#4E4D4D]">UI Designer</span>
+                        </p>
+                  </div>
+            </div>
 
       </div>
     </div>

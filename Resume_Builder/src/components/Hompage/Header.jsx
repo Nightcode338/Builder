@@ -4,7 +4,7 @@ import { IoGlobeOutline } from "react-icons/io5";
 
 const Header = () => {
   return (
-    <div className=" flex py-5 px-20 bg-gr justify-between items-center bg-gradient-to-b from-[#f0e2fc] to-[#fff] ">
+    <div className=" flex py-5 px-20 bg-gr justify-between items-center bg-gradient-to-b from-[#F4E7FF] to-[#fff]">
       <p className=" font-bold text-3xl">Resum<span className=" text-[#8910F1]">o</span></p>
       <div className=" nav text-xl font-bold flex gap-8">
         <NavLink to="/"> Home</NavLink>
