@@ -18,7 +18,7 @@ const Header = () => {
             <p>English</p>
         </div>
         <div className=" px-8 py-2 bg-[#8910F1] rounded-lg  text-white cursor-pointer shadow-md hover:bg-purple-700 transition-colors duration-300">
-        <Link > Start</Link>
+        <Link to="/Login" > Start</Link>
         </div>
 
      </div>
