@@ -12,24 +12,24 @@ const Tabulio = () => {
       <div className=" px-20 my-24 flex justify-between gap-8">
         <div>
           <img src={Frame18} alt="laugh" className=" relative" />
-          <p className=" bg-[#F63C7C] size-[65px] rounded-full absolute top-[28%]"></p>
-          <p className=" bg-[#f63c7d5a] size-[65px] rounded-full absolute left-[40%] bottom-[-5%] -z-10"></p>
+          <p className=" bg-[#F63C7C] size-[65px] rounded-full absolute top-[28%]" data-aos="fade-up-left" data-aos-duration="3000"></p>
+          <p className=" bg-[#f63c7d5a] size-[65px] rounded-full absolute left-[40%] bottom-[-5%] -z-10"  data-aos="fade-down-right" data-aos-duration="3000"></p>
           <img
             src={Arrow1}
             alt=""
-            className=" absolute left-[25%] bottom-[-2.7%] -z-10 "
+            className=" absolute left-[25%] bottom-[-2.7%] -z-10 " data-aos="fade-up-right" data-aos-duration="2000" data-aos-delay="5000"
           />
         </div>
         <div>
         <div className=" max-w-[735px] relative">
-        <p className=" bg-[#f63c7d5a] size-[65px] rounded-full absolute left-[91%] bottom-[86%] -z-10"></p>
+        <p className=" bg-[#f63c7d5a] size-[65px] rounded-full absolute left-[91%] bottom-[86%] -z-10" data-aos="fade-left" data-aos-duration="3000"></p>
         <img src={Arrow2} alt="" className="absolute left-[78%] bottom-[42%]"/>
           <p className=" font-bold text-4xl leading-[50px]">
             Create your professional resume in Just minutes
           </p>
           <div className=" flex flex-col gap-[30px] mt-[30px] mb-[40px] font-bold text-2xl">
             <div className=" flex gap-4">
-              <p className=" size-[30px] bg-[#8910F1] rounded-full"></p>
+              <p className=" size-[30px] bg-[#8910F1] rounded-full" ></p>
               <p>Choose from our libraries your resume style</p>
             </div>
             <div className=" flex gap-4">
