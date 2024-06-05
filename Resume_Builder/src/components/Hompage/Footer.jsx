@@ -23,7 +23,7 @@ const Footer = () => {
 
   return (
 
-    <div className=" border-t border-slate-[#B1B1B1] py-16 px-20 flex justify-between ">
+    <div className=" border-t border-slate-[#B1B1B1] py-16 px-20 flex justify-between " data-aos="fade-up">
 
       <div>
         <p className=" font-bold text-3xl mb-[50px]">

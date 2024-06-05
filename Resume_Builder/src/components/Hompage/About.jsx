@@ -3,7 +3,7 @@ import Girl from "../../assets/Girl.svg";
 const About = () => {
   return (
     <div className=" pt-[200px] pb-[112px] flex justify-center px-28 gap-10">
-      <div>
+      <div data-aos="zoom-out-right" data-aos-duration="2000">
         <span className=" font-bold text-6xl max-w-[410px]">
           Join the 2000+ Resum<span className=" text-[#8910F1]">o</span> family
         </span>
