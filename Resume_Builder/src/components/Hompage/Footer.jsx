@@ -2,6 +2,7 @@ import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 
 
@@ -44,9 +45,9 @@ const Footer = () => {
             </button>
           </div>
           <div className=" font-semibold text-lg flex gap-8">
-            <p>
+            <Link path="/">
               © Resum<span className="text-[#8910F1]">o</span> 2022
-            </p>
+            </Link>
             <p>Privacy policy</p>
             <p>Terms of use</p>
           </div>
