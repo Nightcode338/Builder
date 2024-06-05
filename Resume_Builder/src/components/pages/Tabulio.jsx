@@ -25,7 +25,7 @@ const Tabulio = () => {
         <p className=" bg-[#f63c7d5a] size-[65px] rounded-full absolute left-[91%] bottom-[86%] -z-10"></p>
         <img src={Arrow2} alt="" className="absolute left-[78%] bottom-[42%]"/>
           <p className=" font-bold text-4xl leading-[50px]">
-            Create your proffesional resume in Just minutes
+            Create your professional resume in Just minutes
           </p>
           <div className=" flex flex-col gap-[30px] mt-[30px] mb-[40px] font-bold text-2xl">
             <div className=" flex gap-4">
